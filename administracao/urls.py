@@ -13,4 +13,5 @@ urlpatterns = [
     path(
         "usuarios/cadastrar", usuario_views.cadastrar_usuario, name="cadastrar_servico"
     ),
+    path("usuarios/listar", usuario_views.listar_usuarios, name="listar_usuarios"),
 ]
